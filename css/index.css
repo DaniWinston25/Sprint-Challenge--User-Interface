@@ -144,3 +144,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* missing code added here*/
+
+.nav-header{
+    display: flex;
+    justify-content: flex-start;
+   text-decoration: none;
+    border: 2px solid black;
+}
+.img-lambda{
+    display: flex;
+    
+}
