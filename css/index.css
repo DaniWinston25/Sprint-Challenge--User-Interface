@@ -72,15 +72,17 @@ p {
 }
 .nav-header{
     display: flex;
-	flex-direction: row nowrap;
     margin:left;
+   
+}
+nav a{
+    display: flex;
+    flex-direction: row;
+
     text-decoration: none;
     border: 2px solid black;
 }
-.img-lambda{
-    display: flex;
 
-}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -254,7 +256,7 @@ p{
 h3{
     margin-top: 2%;
 }
-.nav-header{
+.nav{
     display: flex;
 	flex-direction: row nowrap;
 	margin:left;
