@@ -72,7 +72,8 @@ p {
 }
 .nav-header{
     display: flex;
-    justify-content: flex-start;
+	flex-direction: row nowrap;
+    margin:left;
     text-decoration: none;
     border: 2px solid black;
 }
@@ -244,19 +245,62 @@ footer nav a {
 }
 
 /* About page content*/
-
+*{
+    margin:10px;
+}
+p{
+    line-height: 1.5;
+}
+h3{
+    margin-top: 2%;
+}
 .nav-header{
     display: flex;
-    text-decoration: none;
+	flex-direction: row nowrap;
+	margin:left;
 
 }
-
-.boxes{
+.clickables{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+	flex-direction: row nowrap;
+	margin:left;
+}
+
+.boxes-2{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+   
 }
 .strategy{
-    display:flex;
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 43%;
+	padding: 10px;
+  	margin-bottom: 30px;
 }
-
+.how-we-work{
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 43%;
+	padding: 10px;
+  	margin-bottom: 30px;
+}
+.Places-we-work{
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 43%;
+	padding: 10px;
+  	margin-bottom: 30px;
+}
+.Collaboration{
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 43%;
+	padding: 10px;
+  	margin-bottom: 30px;
+}
