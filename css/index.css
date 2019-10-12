@@ -70,7 +70,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.nav-header{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.img-lambda{
+    display: flex;
 
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -234,15 +243,12 @@ footer nav a {
     text-decoration: none;
 }
 
-/* missing code added here*/
+/* About page content*/
 
 .nav-header{
     display: flex;
-    justify-content: flex-start;
-   text-decoration: none;
-    border: 2px solid black;
+    text-decoration: none;
+    
 }
-.img-lambda{
-    display: flex;
 
-}
+
