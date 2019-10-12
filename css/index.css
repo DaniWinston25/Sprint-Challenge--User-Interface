@@ -75,11 +75,8 @@ p {
     margin:left;
    
 }
-nav a{
+.nav-a1{
     display: flex;
-    flex-direction: row;
-
-    text-decoration: none;
     border: 2px solid black;
 }
 
