@@ -248,7 +248,15 @@ footer nav a {
 .nav-header{
     display: flex;
     text-decoration: none;
-    
+
 }
 
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.strategy{
+    display:flex;
+}
 
